@@ -25,7 +25,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'maven-publish'
 apply plugin: 'maven-publish-auth'
 
-group 'net.impactdev'
+group 'com.ojcastillo29'
 version '1.0.3-SNAPSHOT'
 
 subprojects {
