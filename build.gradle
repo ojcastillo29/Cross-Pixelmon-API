@@ -29,7 +29,7 @@ group 'com.ojcastillo29'
 version '1.0.3-SNAPSHOT'
 
 subprojects {
-    group 'net.impactdev.pixelmonbridge'
+    group 'com.ojcastillo29.pixelmonbridge'
 }
 
 allprojects {
