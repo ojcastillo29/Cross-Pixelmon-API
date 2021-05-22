@@ -147,6 +147,7 @@ public abstract class BaseDataManager<P> implements DataManager<P> {
         });
         customReaders.put(SpecKeys.STATUS, JsonElement::getAsInt);
         customReaders.put(SpecKeys.MEW_CLONES, JsonElement::getAsInt);
+        customReaders.put(SpecKeys.MELOETTA_ACTIVATIONS, JsonElement::getAsInt);
         customReaders.put(SpecKeys.LAKE_TRIO_ENCHANTS, JsonElement::getAsInt);
         customReaders.put(SpecKeys.MELTAN_ORES_SMELTED, JsonElement::getAsInt);
         customReaders.put(SpecKeys.MAREEP_WOOL_GROWTH, JsonElement::getAsByte);
